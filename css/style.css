@@ -180,7 +180,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-overflow-x:hidden;
+
 }
 body {
   font-family: var(--ff-secondary);
@@ -188,6 +188,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   overflow-x: hidden;
+overflow-x:hidden;
 }
 ul {
   list-style-type: none;
@@ -268,6 +269,7 @@ main {
   min-height: 100vh;
   display: flex;
  justify-content: center;
+	overflow-x:hidden;
 
 }
 #preloader {
